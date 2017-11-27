@@ -1,1 +1,1 @@
-source ~/.vim/diokai.vim
+source ~/.vim/colorsheme/diokai.vim

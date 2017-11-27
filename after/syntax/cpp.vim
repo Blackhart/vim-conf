@@ -26,7 +26,6 @@
 "   http://www.vim.org/scripts/script.php?script_id=1640
 "   http://www.vim.org/scripts/script.php?script_id=3064
 
-
 " -----------------------------------------------------------------------------
 "  Highlight Class and Function names.
 "
@@ -2027,3 +2026,6 @@ if version >= 508 || !exists("did_cpp_syntax_inits")
   HiLink cppRawDelimiter    Delimiter
   delcommand HiLink
 endif
+
+" Qt highlighting
+source ~/.vim/after/syntax/qt.vim
